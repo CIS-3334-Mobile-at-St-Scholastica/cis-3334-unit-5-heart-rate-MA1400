@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        tvSelect = (TextView) findViewById(R.id.textViewPulse);
+        tvSelect = (TextView) findViewById(R.id.textView);
         lvHeartRates = (ListView) findViewById(R.id.HeartRateListView);
 
         heartRateList = new HeartRateList();
